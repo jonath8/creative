@@ -8,8 +8,14 @@
   color: #E7E481;
 }
 
+.link-image {
+  width: 20%;
+}
+
 .link-image img {
   display: flex;
+  width: 100%;
+  margin: 0px !important;
 }
 
 body {
@@ -62,15 +68,19 @@ p, h2 {
 @media only screen and (min-width: 961px) {
   .header-home {
     display: flex;
-    width: 100%;
   }
   .header-home h1 {
     margin: auto;
     text-align: center;
+    width: 80%;
   }
   .content-gen img {
     margin-left: 25px;
     width: 600px;
     height: auto;
   }
+}
+
+#main-image {
+  margin: 0px !important;
 }
