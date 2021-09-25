@@ -51,6 +51,18 @@ p, h2, h3 {
   color: #000;
 }
 
+.about-us-pics-item img {
+  width: 100%;
+}
+.about-us-pics-item {
+  width: 40%;
+}
+.about-us-pics {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 800px) {
   .link-image {
