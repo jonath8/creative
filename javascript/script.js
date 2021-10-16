@@ -3,7 +3,7 @@ document.getElementById("gameSubmit").addEventListener("click", function(event) 
   const value = document.getElementById("gameInput").value;
   if (value === "")
   return;
-  const url = "https://example.com";
+  const url = "https://acnhapi.com/v1/";
   fetch(url)
     .then(function(response) {
       return response.json();
