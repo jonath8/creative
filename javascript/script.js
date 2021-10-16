@@ -1,9 +1,9 @@
 document.getElementById("gameSubmit").addEventListener("click", function(event) {
   event.preventDefault();
-  const name = document.getElementById("gameInput").value;
-  if (name === "")
+  const value = document.getElementById("gameInput").value;
+  if (value === "")
   return;
-  const url = "https://zelda-api.apius.cc/api/games?name=" + name;
+  const url = "https://example.com";
   fetch(url)
     .then(function(response) {
       return response.json();
